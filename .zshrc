@@ -9,8 +9,6 @@ setopt CORRECT
 setopt HIST_IGNORE_ALL_DUPS
 setopt MULTIOS
 setopt NO_BEEP
-# setopt RM_STAR_WAIT
-
 
 # ==================== Style ====================
 
@@ -19,8 +17,6 @@ export TERM='xterm-256color'
 # Prompt
 # Time= [%*]
 PROMPT="%{$fg_bold[white]%}%n%{$reset_color%}@%{$fg[blue]%}%m%{$reset_color%}: %1~> "
-
-# RPROMPT="%~"
 
 # Menu completion
 zstyle ':completion:*' menu select
@@ -43,8 +39,6 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 
 alias dirs='dirs -v'
-
-# alias ssh='eval $(keychain -Q -q --eval --agents ssh --ignore-missing id_ecdsa id_rsa) && ssh'
 
 alias ls='ls --color=auto'
 alias la='ls -la'
