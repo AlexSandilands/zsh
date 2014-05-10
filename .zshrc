@@ -9,7 +9,7 @@ setopt CORRECT
 setopt HIST_IGNORE_ALL_DUPS
 setopt MULTIOS
 setopt NO_BEEP
-setopt RM_STAR_WAIT
+# setopt RM_STAR_WAIT
 
 
 # ==================== Style ====================
