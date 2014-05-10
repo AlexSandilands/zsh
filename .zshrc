@@ -61,12 +61,6 @@ alias mv='mv -iv'
 
 alias shred='shred -v'
 
-alias gradlew='./gradlew'
-
-alias pacman='pacaur'
-
-alias vi=vim
-
 # Copy / paste aliases
 alias c='xclip -selection c'
 alias v='xclip -o'
